@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Drukaatie-burti-smalki';
+  src:  url('Drukaatie-burti-smalki.ttf.woff') format('woff'),
+    		url('Drukaatie-burti-smalki.ttf.svg#Drukaatie-burti-smalki') format('svg'),
+    		url('Drukaatie-burti-smalki.ttf.eot'),
+    		url('Drukaatie-burti-smalki.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	background-color: #FFF5EC;
+	font-family: 'Drukaatie-burti-smalki';
+	letter-spacing: 3px;
+  font-style: normal;
+  text-align: center;
+  color: #3b524c; 
+  word-break: break-word;
+}
+
+h1 {
+	margin: 0px 0px 10px 0px;
+	padding: 5px;
+	font-size: 32px;
+	letter-spacing: 10px;
+}
+
+h2 {
+	margin:	0px 0px 10px 0px;
+	padding: 5px;
+	font-size: 22px;
+	letter-spacing: 10px;
+}
+
+p {
+	padding: 5px;
+	font-size: 18px;
+}
+
+ol {
+	margin: 0px;
+	padding: 0px;
+}
+
+li::marker {
+  font-size: 30px;
+}
+
+li {
+	font-size: 22px;
+}
+
+#container {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+ 	list-style-position: inside;
+}
+
+.logo {
+	width: 100%;
+  max-width: 300px;
+  padding: 20px 0px;
+}
+
+.content {
+	max-width: 700px;
+	margin: 0px auto;
+	padding: 20px 20px 40px 20px;
+}
+
+a {
+	color: #b54212;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #587671;
+}
